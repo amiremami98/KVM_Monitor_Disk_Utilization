@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Usage: python3 monitor_disk.py <vm_name> <device_name>
+# Usage: python3 disk_util.py <vm_name> <device_name>
 import subprocess
 import time
 import sys
