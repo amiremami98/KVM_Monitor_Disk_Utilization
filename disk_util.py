@@ -18,7 +18,7 @@ def get_stats(vm, dev):
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python3 monitor_disk.py <vm_name> <device>")
+        print("Usage: python3 disk_util.py <vm_name> <device>")
         sys.exit(1)
         
     vm, dev = sys.argv[1], sys.argv[2]
